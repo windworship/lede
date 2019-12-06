@@ -60,8 +60,8 @@ jobs:
           mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/pymumu/smartdns.git
-          mkdir package/luci-app-openclash
-          cd package/luci-app-openclash
+          mkdir luci-app-openclash
+          cd luci-app-openclash
           git init
           git remote add -f origin https://github.com/vernesong/OpenClash.git
           git config core.sparsecheckout true
